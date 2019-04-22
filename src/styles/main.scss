@@ -1,0 +1,156 @@
+
+.main {
+    max-width: 1300px;
+    margin: 2rem auto 1rem;
+}
+
+.toolbar-filters {
+    float: left;
+    padding: 0 1rem;
+}
+
+.toolbar-filters-title {
+    font-size: 16px;
+    width: auto;
+    height: 25px;
+    line-height: 1.5;
+    vertical-align: bottom;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.toolbar-clear-filters {
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 16px;
+    width: auto;
+    height: 25px;
+    line-height: 1.5;
+    // vertical-align: bottom;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 0 0 10px;
+}
+
+.toolbar {
+    background-color: transparent !important;
+    border-bottom: none;
+    position: relative;
+    z-index: 110;
+
+    .status, .zone-id, .site-id, .size-id {
+        .Select-input {
+            display: none !important;
+        }
+
+        .Select-menu-outer {
+            min-width: auto !important;
+        }
+    }
+}
+
+.toolbar-apply {
+    background-color: transparent !important;
+    border-bottom: none;
+    position: relative;
+    z-index: 100
+    ;
+}
+
+.list-table {
+
+    .table {
+        th, td {
+            min-height: 38px;
+            vertical-align: bottom
+        }
+    }
+}
+
+.list-table-toolbar-info {
+    background-color: #333e48 !important;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+    .selected-items-info {
+        float: left;
+        color: #FFFFFF;
+        line-height: 18px;
+        margin-right: 20px
+    }
+
+    .selected-items-clear {
+        float: left;
+        line-height: 18px;
+        
+        .btn-link {
+            width: auto;
+            padding: 0;
+            border: none;
+            margin: 0;
+            line-height: 18px;
+        }
+    }
+
+    .selected-items-total {
+        float: right;
+        color: #FFFFFF;
+        line-height: 18px;
+    }
+}
+
+.bulk-actions {
+    min-width: 150px;
+
+    .bulk-actions-buttons {
+        widows: 100%;
+    }
+
+    .btn {
+        width: auto;
+        float: left;
+        margin-right: 10%;
+        background-color: #76838B;
+        border-color: #76838B;
+
+    }
+}
+
+.toolbar-apply {
+    padding-top: 0.2rem !important;
+    padding-bottom: 0.5rem !important;
+
+    .m-b-qtr {
+        display: none !important;
+    }
+}
+
+.item-toolbar {
+    .container {
+        width: 100%;
+    }
+
+    .toolbar-item {
+        display: block;
+    }
+}
+
+.btn-link {
+    font-weight: 700;
+    background: transparent !important;
+    display: inline-block;
+    border: none;
+    color: #23a4ab;
+
+    &:hover {
+        outline-width: 0;
+        text-decoration: underline;
+    }
+
+    &:disabled {
+        color: #373E4A;
+        text-decoration: none;
+    }
+} 
+
