@@ -29,7 +29,9 @@ class ListTable extends React.Component {
     }
 
     componentDidMount () {
-        this.props.listGetRequest();
+        if(!this.props.content.length) {
+            this.props.listGetRequest();
+        }
     }
 
     componentWillReceiveProps (nextProps) {
